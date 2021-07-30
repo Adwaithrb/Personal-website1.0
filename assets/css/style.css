@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
-  color: #fff;
+  background-color: #000000;
+  color: rgb(255, 247, 247);
   position: relative;
   background: transparent;
 }
@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bgm.jpeg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
